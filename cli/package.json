@@ -1,0 +1,15 @@
+{
+  "name": "hki-cli",
+  "version": "1.0.0",
+  "description": "CLI untuk mendaftarkan dan melihat data HKI pada smart contract HKIRegistry",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "readline-sync": "^1.4.10"
+  }
+}

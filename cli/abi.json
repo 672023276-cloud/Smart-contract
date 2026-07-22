@@ -1,0 +1,6 @@
+[
+  "function registerHKI(string _namaPemilik, string _judulHKI, string _jenisHKI, string _email, string _noTelepon, string _uraianSingkat) public returns (uint256 id)",
+  "function getHKI(uint256 _id) public view returns (uint256 id, string namaPemilik, string judulHKI, string jenisHKI, string email, string noTelepon, string uraianSingkat, uint256 tanggalPendaftaran, address walletPendaftar)",
+  "function getTotalHKI() public view returns (uint256)",
+  "event HKIRegistered(uint256 indexed id, address indexed walletPendaftar, string judulHKI, string jenisHKI, uint256 tanggalPendaftaran)"
+]
